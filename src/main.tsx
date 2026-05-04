@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createClient } from '@supabase/supabase-js'
 import { useState, useEffect } from 'react'
-import './index.css';
 
 // Supabase konfigūracija (naudoja tavo įvestus kintamuosius iš Vercel)
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
